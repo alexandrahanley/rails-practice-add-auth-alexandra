@@ -11,6 +11,8 @@ class ApplicationController < ActionController::Base
     end
   end
 
-  helper_method :current_student
+def student_club
+end
 
+  helper_method :current_student
 end

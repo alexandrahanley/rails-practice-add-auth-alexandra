@@ -53,4 +53,8 @@ Then they should not see the "My Peeps" or "My Clubs" links
 ```
 When a logged in user goes to /clubs
 Then they should only see the clubs they are members of
+
+In clubs controller:
+@clubs = current_student.clubs
+
 ```
