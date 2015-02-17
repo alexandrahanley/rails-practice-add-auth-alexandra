@@ -1,6 +1,6 @@
 class ClubsController < ApplicationController
   before_action :authenticate
-  
+
   def index
     @clubs = Club.all
   end
